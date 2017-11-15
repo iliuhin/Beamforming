@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Nov 01 09:58:17 2017
+# Process ID: 9456
+# Current directory: C:/EmbeddedSoftware/Beamforming/BeamForming
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent224 C:\EmbeddedSoftware\Beamforming\BeamForming\BeamForming.xpr
+# Log file: C:/EmbeddedSoftware/Beamforming/BeamForming/vivado.log
+# Journal file: C:/EmbeddedSoftware/Beamforming/BeamForming\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.xpr
+remove_files  C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/new/freq_trig.vhd
+file delete -force C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/new/freq_trig.vhd
+open_bd_design {C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/bd/beamforming/beamforming.bd}
+close_bd_design [get_bd_designs beamforming]
+close [ open C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/new/beamforming_control.vhd w ]
+add_files C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/new/beamforming_control.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files  C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/bd/beamforming/beamforming.bd
+file delete -force C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/bd/beamforming

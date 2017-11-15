@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 10/11/2017 11:11:29 AM
+-- Create Date: 11/08/2017 10:16:38 AM
 -- Design Name: 
--- Module Name: freq_trig - Behavioral
+-- Module Name: pulser_control - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,17 +31,26 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity freq_trig is
-    Port(
-        freq_conts : in std_logic
-        );
-end freq_trig;
+entity pulser_control is
+Port ( 
+	init_pulser_in   :  in  std_logic; 
+	pulser_fired_out :	out std_logic;
+	pulse_out 		 :  out std_logic_vector(3 downto 0)
+	);
+end pulser_control;
 
-architecture Behavioral of freq_trig is
-    
+architecture Behavioral of pulser_control is
+
 begin
-    process(clk_in)
-    
-    end 
+	process(init_pulser_in)
+		begin 
+		
+			if init_pulser_in = '1' then
+				pulse_out <= "0000";
+			else 
+				null;
+			end if;
+			
+	end process; 
 
 end Behavioral;

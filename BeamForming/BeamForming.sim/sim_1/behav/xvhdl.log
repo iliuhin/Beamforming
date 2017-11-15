@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sources_1/new/beamforming_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity beamforming_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EmbeddedSoftware/Beamforming/BeamForming/BeamForming.srcs/sim_1/new/beamforming_control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity beamforming_control_tb

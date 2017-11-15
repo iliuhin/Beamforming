@@ -1,0 +1,4 @@
+Running: xsim.dir/beamforming_control_tb_behav/xsimk.exe -simmode gui -wdb beamforming_control_tb_behav.wdb -simrunnum 0 -socket 55293
+Design successfully loaded
+Design Loading Memory Usage: 7248 KB (Peak: 7248 KB)
+Design Loading CPU Usage: 15 ms

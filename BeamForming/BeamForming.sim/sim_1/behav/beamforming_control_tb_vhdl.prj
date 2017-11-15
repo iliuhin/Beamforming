@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../BeamForming.srcs/sources_1/new/beamforming_control.vhd"
+vhdl xil_defaultlib  "../../../BeamForming.srcs/sim_1/new/beamforming_control_tb.vhd"
+
+# Do not sort compile order
+nosort
